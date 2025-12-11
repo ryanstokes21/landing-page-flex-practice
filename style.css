@@ -11,13 +11,12 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 10rem 0 10rem;
+  padding: 1rem 10rem 1rem 10rem;
 }
 
 .logo {
   font-size: 24px;
   color: #F9FAF8;
-  padding: 1rem;
 }
 
 .nav-list {
@@ -33,4 +32,39 @@ a {
 
 a:hover {
   background-color: #293545;
+}
+
+.hero {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 4rem 10rem 4rem 10rem;
+}
+
+.intro {
+  min-width: 300px;
+  max-width: 500px;
+  height: auto;
+}
+
+.section-title {
+  font-size: 48px;
+  color: #F9FAF8;
+  margin-bottom: 12px;
+}
+
+.hero-text {
+  color: #e5e7eb;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  min-width: 550px;
+  max-height:400px;
+  overflow: hidden;
+  border-radius: 16px;
 }
