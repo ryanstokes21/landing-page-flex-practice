@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+header {
+  background-color: #1f2937;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10rem 0 10rem;
+}
+
+.logo {
+  font-size: 24px;
+  color: #F9FAF8;
+  padding: 1rem;
+}
+
+.nav-list {
+  display: flex;
+  gap: 10px;
+  font-size: 1.1rem;
+}
+
+a {
+  color: #e5e7eb;
+  padding: 0.50rem .50rem;
+}
+
+a:hover {
+  background-color: #293545;
+}
