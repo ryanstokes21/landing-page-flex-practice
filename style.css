@@ -54,7 +54,7 @@ a:hover {
 
 .intro {
   min-width: 300px;
-  max-width: 500px;
+  max-width: 50%;
   height: auto;
 }
 
@@ -76,4 +76,95 @@ img {
   max-height:400px;
   overflow: hidden;
   border-radius: 16px;
+}
+
+.information {
+  background-color: #fff;
+  width: 100%;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.info-title {
+  font-size: 32px;
+  margin-bottom: 1rem;
+}
+
+.info-content {
+  display: flex;
+  gap: 20px;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px;
+  max-height: 300px;
+  min-width: min-content;
+  border: 2px solid #000000;
+}
+
+.phone-container {
+  width: 120px;
+  height: 200px;
+  border: 7px solid #000000;
+  border-radius: 30px;
+  background-color: #f0f0f0;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.phone-screen {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(76, 76, 76);
+  position: relative;
+  padding: 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+/* .post-container {
+  width: 80%;
+  padding: .30rem;
+  border: 1px solid #000000;
+  border-radius: 5px;
+} */
+
+.phone-header {
+  font-size: 1rem;
+}
+
+.post-button {
+  background-color: #007AFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: .50rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  /* Position it within the screen */
+  position: absolute;
+  bottom: 30px; /* Example placement */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.post-button:hover {
+  background-color: #0056b3;
+}
+
+.post-button:active {
+  background-color: #004085;
 }
