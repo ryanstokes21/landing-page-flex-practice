@@ -111,32 +111,8 @@ img {
   min-width: min-content;
 }
 
-.phone-container {
-  width: 120px;
-  height: 200px;
-  border: 7px solid #000000;
-  border-radius: 30px;
-  background-color: #f0f0f0;
-  position: relative;
-  overflow: hidden;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
-  margin-bottom: auto;
-}
-
-.phone-screen {
-  width: 100%;
-  height: 100%;
-  background-color: rgb(76, 76, 76);
-  position: relative;
-  padding: 1px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  align-items: center;
-}
-
-.phone-header {
-  font-size: 1rem;
+.btn-container {
+  margin: auto;
 }
 
 .post-button {
@@ -144,15 +120,11 @@ img {
   color: white;
   border: none;
   padding: 10px 20px;
-  border-radius: 20px;
-  font-size: .50rem;
+  border-radius: 30px;
+  border: 2px solid #000000;
+  font-size: 2rem;
   cursor: pointer;
   transition: background-color 0.2s;
-  /* Position it within the screen */
-  position: absolute;
-  bottom: 30px; /* Example placement */
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 .post-button:hover {
